@@ -1,0 +1,27 @@
+{
+    "name": "angel/bienes-raices-poo_php_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Angel\\BienesRaicesPooPhpInicio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AngelCamargo404",
+            "email": "adcamargo10@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./Controllers"
+        }
+    }
+}
